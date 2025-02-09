@@ -32,3 +32,14 @@ const myarr=[0,1,2,3,4,5]
 
 
 // slice and splice
+const IndianFruits=["Orange","Banana","Apple","Mango","Kiwi","Guava","Watermelon"];
+// const NewFruits=IndianFruits.slice(1,4);
+// slice returns a section of the array from 1 to index just lesser than 4
+// but it does not modify the original arrays
+
+
+const NewFruits=IndianFruits.splice(1,4);
+// splice returns a section of the array from 1 to index equal to 4
+// but it does also  modify the original arrays
+console.log(IndianFruits);
+console.log(NewFruits);
