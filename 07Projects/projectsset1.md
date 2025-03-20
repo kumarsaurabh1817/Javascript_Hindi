@@ -2,7 +2,7 @@
 
 # Solution Code
 
-## Project 1 
+## Project 1 (Color Changer)
 
 ``` Javascript
 const buttons = document.querySelectorAll('.button')
